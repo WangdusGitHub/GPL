@@ -1,0 +1,103 @@
+.contain{
+    display: flex;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+}
+.right{
+    width: 72%;
+}
+.image-box{
+    position: relative;
+    margin: 6px;
+    display: block;
+    height: 200px;
+    width: 30%;
+    float: left;
+    overflow: hidden;
+}
+.upper-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    background-color: #7acff7;
+    color: black;
+}
+.image-box:hover .upper-text{
+    background-color: #1585b9;
+    color: white;
+    transition: all 0.2s ease-out;
+}
+.image{
+    overflow: hidden;
+}
+.lower-text{
+    position: absolute;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 155px;
+    width: 100%;
+    background-color: #1585b9;
+    top: 200px;
+    font-size: 13px;
+    transition: all 0.2s ease-out;
+}
+.image-box:hover .lower-text{
+    background-color: #1585b9;
+    color: white;
+    top: 45px;
+    
+}
+.left{
+    width: 28%;
+    /* background-color: aqua; */
+}
+.latest{
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: 95%;
+    /* background-color: red; */ 
+}
+.first{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1585b9;
+    color: white;
+    border-bottom: 1px solid black;
+}
+.news-box{
+    height: 200px;
+    overflow: hidden;
+    height: auto;
+}
+.news{  
+    padding-top: 45px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: auto; 
+    height: 80px;
+    top: 220px;
+    animation-name: newz;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes newz {
+    0%{
+        top: 220px;
+    }
+    100%{
+        top: -370px;
+    }
+}

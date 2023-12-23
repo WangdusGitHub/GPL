@@ -1,0 +1,95 @@
+.top{
+    width: 100%;
+    height: 30px;
+    background-color:  #1c6283;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 50px 0 0;
+}
+.top div a{
+    text-decoration: none;
+    color: white;
+}
+.top div{
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.head{
+    width: 100%;
+    height: 150px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    text-decoration: underline;
+    font-size: 40px;
+    padding-top: 20px;
+    text-align: center;
+    height: 100px;
+    width: 80%;
+    float: left;
+}
+.name a{
+    text-decoration: none;
+    color: #2b86b1;
+    text-decoration: underline;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    padding-bottom: 40px;
+    font-size: 15px;
+}
+.text p{
+    position: absolute;
+    top: 145px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    padding-top: 10px;
+    height: 150px;
+    width: 20%;
+    float: left;
+    align-items: right;
+}
+.logo a img{
+    width: 100px;
+}
+.foot{
+    width: 100%;
+    height: 500px;
+    background-color: #1c6283;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .foot-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.foot-list div{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footnote{
+    border-top: 1px solid #2885b1;
+    height: 45px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c6283;
+}
